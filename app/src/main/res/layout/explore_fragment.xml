@@ -1,0 +1,71 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/Explore"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#181A20"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear29"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear30"
+				android:layout_width="match_parent"
+				android:layout_height="30dp"
+				android:padding="8dp"
+				android:background="#181A20"
+				android:orientation="horizontal" />
+			<LinearLayout
+				android:id="@+id/linear31"
+				android:layout_width="match_parent"
+				android:layout_height="55dp"
+				android:padding="5dp"
+				android:background="#181A20"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/linear32"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:gravity="center_vertical"
+					android:orientation="vertical"
+					android:weightSum="1"
+					android:layout_weight="1">
+					<TextView
+						android:id="@+id/textview18"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Categorias"
+						android:textSize="18sp"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+			</LinearLayout>
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recyclerview1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+			<LinearLayout
+				android:id="@+id/linear34"
+				android:layout_width="match_parent"
+				android:layout_height="10dp"
+				android:padding="8dp"
+				android:orientation="horizontal" />
+			<GridView
+				android:id="@+id/gridview1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:numColumns="2"
+				android:stretchMode="columnWidth"
+				android:nestedScrollingEnabled="true" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

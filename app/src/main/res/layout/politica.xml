@@ -1,0 +1,62 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#181A20"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:src="@drawable/esquerda2"
+			android:scaleType="centerCrop" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="20dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="8dp"
+			android:text="Política de Privacidade"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Política de Privacidade do Aplicativo de Anime:\n\nAgradecemos por utilizar o nosso aplicativo de anime. Esta política de privacidade descreve como coletamos, usamos e compartilhamos informações quando você utiliza o nosso aplicativo.\n\nInformações Coletadas:\na) Informações de Registro: Coletamos informações fornecidas por você ao se registrar no aplicativo, como nome, e-mail e data de nascimento.\nb) Informações de Uso: Podemos coletar informações sobre como você utiliza o aplicativo, incluindo interações com conteúdos e funcionalidades.\nc) Informações do Dispositivo: Podemos coletar informações do seu dispositivo, como modelo, sistema operacional e identificadores únicos.\n\nUso das Informações:\na) Personalização: Utilizamos as informações coletadas para personalizar sua experiência no aplicativo, fornecendo recomendações de conteúdo e recursos relevantes.\nb) Melhorias: As informações nos ajudam a melhorar continuamente o aplicativo, otimizando sua usabilidade e desempenho.\nc) Comunicação: Podemos enviar e-mails ou notificações relacionados ao aplicativo, como atualizações ou novidades.\n\nCompartilhamento de Informações:\na) Parceiros de Negócios: Podemos compartilhar informações com parceiros de negócios para fins de análise e melhoria do aplicativo.\nb) Requisitos Legais: Em cumprimento às leis e regulamentos aplicáveis, podemos compartilhar informações com autoridades competentes.\n\nSegurança:\nTomamos medidas para proteger suas informações contra acesso não autorizado, alteração ou destruição.\n\nCookies e Tecnologias Similares:\nPodemos utilizar cookies e tecnologias similares para coletar informações sobre o uso do aplicativo e melhorar sua funcionalidade.\n\nMenores de Idade:\nNosso aplicativo não é destinado a menores de idade. Caso tenhamos conhecimento de informações coletadas de menores, tomaremos as medidas necessárias para removê-las de nossos registros.\n\nAlterações na Política de Privacidade:\nPodemos atualizar esta política de privacidade periodicamente. Notificaremos sobre quaisquer mudanças significativas por meio de avisos no aplicativo ou comunicação direta.\n\nAo continuar utilizando nosso aplicativo, você concorda com esta política de privacidade. Caso tenha alguma dúvida ou preocupação, entre em contato conosco através dos canais de suporte disponíveis. Obrigado por utilizar nosso aplicativo de anime.\n\nnão hospedamos links"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#181A20"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="25dp"
+				android:layout_height="25dp"
+				android:padding="3dp"
+				android:src="@drawable/esquerda2"
+				android:scaleType="centerCrop" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingTop="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="8dp"
+				android:text="Ação"
+				android:textSize="16sp"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+		<GridView
+			android:id="@+id/gridview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:numColumns="2"
+			android:stretchMode="columnWidth"
+			android:nestedScrollingEnabled="true" />
+	</LinearLayout>
+</LinearLayout>
